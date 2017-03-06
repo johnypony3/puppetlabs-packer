@@ -10,7 +10,7 @@
 
         "memory_size": "512",
         "cpu_count": "1",
-
+        "headless": "true",
         "provisioner": "virtualbox",
         "required_modules": "puppetlabs-stdlib saz-ssh",
         "puppet_nfs": "{{env `PUPPET_NFS`}}"
